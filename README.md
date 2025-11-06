@@ -2,19 +2,19 @@
 
 A complete implementation of sentiment analysis using Transformer models, trained from scratch on the IMDB movie reviews dataset. This project showcases how to build, train, and evaluate a Transformer-based model for binary sentiment classification (positive or negative).
 
-## 🎯 Project Overview
+## Project Overview
 
 SentimentScope is a sentiment analysis project developed for Cinescope, an entertainment company looking to enhance their recommendation system. The project implements a custom transformer architecture to classify movie reviews as positive or negative, achieving **77.36% accuracy** on the test dataset.
 
 ### Key Features
 
-- 🏗️ **Custom Transformer Architecture**: Built from scratch using PyTorch
-- 📊 **Comprehensive Data Analysis**: Detailed exploration of the IMDB dataset
-- 🔧 **Modular Design**: Well-structured, reusable components
-- 🚀 **GPU Acceleration**: CUDA-enabled training for faster processing
-- 📈 **Performance Monitoring**: Real-time training progress and validation metrics
+- **Custom Transformer Architecture**: Built from scratch using PyTorch
+- **Comprehensive Data Analysis**: Detailed exploration of the IMDB dataset
+- **Modular Design**: Well-structured, reusable components
+- **GPU Acceleration**: CUDA-enabled training for faster processing
+- **Performance Monitoring**: Real-time training progress and validation metrics
 
-## 📋 Learning Objectives
+## Learning Objectives
 
 By completing this project, you will demonstrate competency in:
 
@@ -24,7 +24,7 @@ By completing this project, you will demonstrate competency in:
 - Training and evaluating transformer models on real-world datasets
 - Achieving target performance metrics (>75% accuracy)
 
-## 🗂️ Dataset
+## Dataset
 
 ### IMDB Movie Review Dataset
 
@@ -59,7 +59,7 @@ This project uses the [IMDB dataset](http://ai.stanford.edu/~amaas/data/sentimen
        └── neg/    # Negative reviews for testing
    ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Model Configuration
 
@@ -86,7 +86,7 @@ config = {
 5. **Layer Normalization**: Stabilizes training across layers
 6. **Classification Head**: Mean pooling + linear layer for binary classification
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ pip install tqdm
 - **Loss Function**: Cross-Entropy Loss
 - **Max Sequence Length**: 128 tokens
 
-## 📊 Results
+## Results
 
 ### Performance Metrics
 
@@ -143,7 +143,7 @@ Epoch 2 - Validation Accuracy: 76.16%
 Epoch 3 - Validation Accuracy: 77.88%
 ```
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 sentiment-scope/
@@ -159,7 +159,7 @@ sentiment-scope/
         └── neg/
 ```
 
-## 📚 Implementation Details
+## Implementation Details
 
 ### Data Processing Pipeline
 
@@ -185,7 +185,7 @@ The transformer model consists of:
 - **Learning Rate Scheduling**: AdamW optimizer with warmup
 - **Early Stopping**: Based on validation accuracy
 
-## 🎯 Future Improvements
+## Future Improvements
 
 - [ ] **Extended Training**: Increase epochs for better performance
 - [ ] **Larger Model**: Experiment with more layers/heads
