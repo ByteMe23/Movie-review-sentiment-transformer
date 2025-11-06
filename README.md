@@ -1,6 +1,6 @@
-# SentimentScope: Transformer-Based Sentiment Analysis
+# SentimentScope: Transformer-Based Sentiment Analysis on Movie Reviews
 
-A comprehensive implementation of sentiment analysis using transformer models trained from scratch on the IMDB movie review dataset. This project demonstrates how to build, train, and evaluate a transformer-based classifier for binary sentiment classification.
+A complete implementation of sentiment analysis using Transformer models, trained from scratch on the IMDB movie reviews dataset. This project showcases how to build, train, and evaluate a Transformer-based model for binary sentiment classification (positive or negative).
 
 ## 🎯 Project Overview
 
@@ -195,25 +195,6 @@ The transformer model consists of:
 - [ ] **Ensemble Methods**: Combine multiple models
 - [ ] **Visualization**: Add training curves and confusion matrix
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [IMDB Dataset](http://ai.stanford.edu/~amaas/data/sentiment/) by Maas et al.
-- [Hugging Face Transformers](https://huggingface.co/transformers/) for tokenization
-- [PyTorch](https://pytorch.org/) for deep learning framework
-- [Udacity](https://www.udacity.com/) for project structure and guidance
-
-## 📞 Contact
-
-For questions or suggestions, please open an issue or contact [sankarambati1266@gmail.com].
-
 ---
 
-**Note**: This project is part of the AWS Machine Learning Engineer Nanodegree program and demonstrates practical implementation of transformer models for sentiment analysis.
+**Note**: This project is part of the AWS AI ML Scholar and demonstrates practical implementation of transformer models for sentiment analysis.
